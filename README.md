@@ -1,5 +1,5 @@
 # C-Daily-Test
-## 2022-5-8 实现String
+## 2022-5-8 实现String ===> 2022-5-9 完成
 - auto str1 = CustomString("test1");
 - auto str2 = CustomString("test2, test3");
 - str1 = "test3";
