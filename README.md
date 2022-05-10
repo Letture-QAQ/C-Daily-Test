@@ -25,3 +25,7 @@
 - arr.pop();(×)
 - arr.clear();(×)
 - int index = arr.findIndex(1);(×)
+
+---
+2022-5-10 Notify一下，今天去打球，晚上看情况实现以下Array
+---
