@@ -1,5 +1,5 @@
 # C-Daily-Test
-## 2022-5-8 实现String ===> 2022-5-9 完成
+#### 2022-5-8 实现String ===> 2022-5-9 完成
 - auto str1 = CustomString("test1");(√)
 - auto str2 = CustomString("test2, test3");(√)
 - str1 = "test3";(√)
@@ -13,8 +13,7 @@
 - 实现截图(输出字符串的时候有乱码，等我有时间看一下)
 ![image](https://user-images.githubusercontent.com/74652578/167532823-e165cac6-cc69-47b3-8c8e-45517bfa2eed.png)
 
-## 2022-5-9 开始实现Array
-
+#### 2022-5-9 开始实现Array
 - 实现数组以及以下api
 - auto arr = new CustomArray();(√)
 - arr.reserve(4);(√)
@@ -26,7 +25,7 @@
 - arr.clear();(√)
 - int index = arr.findIndex(1);(√)
 
-## 2022-5-16 DoubleLinkList实现
+#### 2022-5-16 DoubleLinkList实现
 - auto list1 = new CustomList();(√)
 - auto node1 = list1.push(1);(√)
 - auto node2 = list1.push(2);(√)
