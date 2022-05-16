@@ -17,18 +17,20 @@
 
 - 实现数组以及以下api
 - auto arr = new CustomArray();(√)
-- arr.reserve(4);(×)
-- arr.push(1);(×)
-- arr.push(2);(×)
-- arr.insert(1, 3);(×)
-- arr.remove(1);(×)
-- arr.pop();(×)
-- arr.clear();(×)
-- int index = arr.findIndex(1);(×)
+- arr.reserve(4);(√)
+- arr.push(1);(√)
+- arr.push(2);(√)
+- arr.insert(1, 3);(√)
+- arr.remove(1);(√)
+- arr.pop();(√)
+- arr.clear();(√)
+- int index = arr.findIndex(1);(√)
 
----
-2022-5-10 Notify一下，今天去打球，晚上看情况实现以下Array
----
-2022-5-13 Vector实现完成，准备实现Double_Link_List
----
-
+## 2022-5-16 DoubleLinkList实现
+- auto list1 = new CustomList();(√)
+- auto node1 = list1.push(1);(√)
+- auto node2 = list1.push(2);(√)
+- auto node3 = list1.insert(node2, 3);(√)
+- auto ret = list1.find(2);(√)
+- list1.remove(node2);(√)
+- list1.popAll();(√)
