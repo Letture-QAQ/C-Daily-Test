@@ -56,17 +56,9 @@ public:
 		if (pTop == nullptr) {
 			return;
 		}
-		StackInfo* pTemp = pTop;
-		while (pTemp != nullptr) {
-			if (pTemp->data != inData) {
-				pTemp = pTemp->pLast;
-			}
-			else {
-				pTemp->pLast = pTemp->pLast->pLast;
-				pTop = pTemp;
-				break;
-			}
-		}
+		StackInfo* pTemp = pTop->pLast;
+		delete pTop;
+		pTop = pTemp;
 	}
 public:
 	StackInfo* pTop;
@@ -91,6 +83,7 @@ public:
 		stack.pop(v2);
 		stack.pop(v1);
 
+		//ашвЊжиди<<ЗћКХ
 		std::cout << "testWithStack "
 			<< v1 << " "
 			<< v2 << " "
