@@ -15,10 +15,13 @@ int main() {
 			buffer->push(data, length);
 		}
 
+		buffer->print();
+
 		char out[128];
 		int popCount = rand() % 10;
 		for (int jj = 0; jj < popCount; jj++) {
 			buffer->pop(&out[0], sizeof(out));
+			std::cout << &out[0] << std::endl;
 		}
 	}
 }
